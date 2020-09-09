@@ -32,7 +32,7 @@ color: black;
 }
 
 .hero{
-    background: url(img/pexels-nicole-avagliano-2312040.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url(img/pexels-nicole-avagliano-2312040.jpg);
     height: 90vh;
     background-size: cover;
     background-position: center;
@@ -89,24 +89,35 @@ nav ul {
 
 .button{
 
-    background-color: white;
-    padding: 20px 30px;
+    background-color: slategray;
+    padding: 20px 20px;
     margin-top: 30px;
-    color: black;
+    color: white;
     cursor: pointer;
     border: none;
     font-size: 1.5rem;
+    border-radius: 8px;
+    transition-duration: 2s;
+    border-style: none;
+    
     
 
 }
+
+.button:hover {
+    background-color: white;
+    color: black;
+  }
 
 
 
 
 h2{
     color: white;
-    font-size: 10rem;
+    font-size: 7.5rem;
     margin-top: 80px;
+    font-weight: 100;
+    
     
     
 
@@ -115,5 +126,7 @@ h2{
 p{
     color: white;
     font-size: 3rem;
-    opacity: 0.8
+    opacity: 0.8;
+    font-weight: 100;
+    margin-top: 20px;
 }
