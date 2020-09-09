@@ -22,8 +22,9 @@ p{
 }
 
 .main-head{
-    background-color: slategray;
-    color: black
+    background-color: white;
+
+   
     
   
 }
@@ -60,6 +61,7 @@ p{
 a li{
     text-decoration: none;
     cursor: pointer;
+    color: black
     
     
     
@@ -92,7 +94,7 @@ nav ul {
 
 .button{
 
-    background-color: grey;
+    background-color: black;
     padding: 20px 30px;
     margin-top: 30px;
     color: white;
@@ -108,6 +110,7 @@ nav ul {
 h2{
     color: white;
     font-size: 10rem;
+    margin-top: 80px;
     
     
 
